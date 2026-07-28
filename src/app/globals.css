@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Heritage Colors */
+  --color-heritage-ivory: #F7F1E7;
+  --color-heritage-ivory-card: #FFFDF8;
+  --color-heritage-sandstone: #E8D8C3;
+  --color-heritage-burgundy: #6B1F2A;
+  --color-heritage-teal: #174C4F;
+  --color-heritage-gold: #B58A45;
+  --color-heritage-gold-light: #D4AA6A;
+  --color-heritage-charcoal: #252321;
+  --color-heritage-stone: #75685D;
+  --color-heritage-leakage: #8B2535;
+
+  /* Custom Fonts */
+  --font-editorial: var(--font-cormorant);
+  --font-body: var(--font-jost);
+  --font-data: var(--font-ibm-plex);
+}
+
+body {
+  background-color: #1C0F06;
+  color: var(--color-heritage-charcoal);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
